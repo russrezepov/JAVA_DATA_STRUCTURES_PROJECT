@@ -39,9 +39,15 @@ public class Main {
 
         //Queue with Objects
 
-        PersonQ personq = new PersonQ();
-        personq.enqueue(new Person("Russ","2908"));
-        personq.enqueue(new Person("Bond","1002"));
-        personq.showAll();
+//        PersonQ personq = new PersonQ();
+//        personq.enqueue(new Person("Russ","2908"));
+//        personq.enqueue(new Person("Bond","1002"));
+//        personq.showAll();
+
+        IntLinkedList list = new IntLinkedList(2);
+
+        list.insertItem(5);
+        list.insertItem(8);
+        list.printList();
     }
 }
